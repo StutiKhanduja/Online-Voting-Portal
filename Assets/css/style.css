@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;700&family=Montserrat:wght@800&display=swap');
+
+html
+{
+    height : 100%;
+}
+body
+{
+    background-color: #F8F8F8;
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.carousel{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30rem;
+}
+.active{
+    font-weight: 700;
+    font-size: large;
+}
+.active:hover{
+    font-size: x-large;
+    background-color: blanchedalmond;
+}
