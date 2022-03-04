@@ -25,3 +25,14 @@ body
     font-size: x-large;
     background-color: blanchedalmond;
 }
+.cards{
+    align-items: center;
+    margin: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    column-gap: 5rem;
+    row-gap: 5rem;
+    text-align: center;
+}
+.card-body{
+}
