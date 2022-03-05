@@ -37,52 +37,41 @@
     </div>
   </nav>
     <center>
-    <img src="https://play-lh.googleusercontent.com/3APi4HdWb0_rhnhAEoyJEYfSemXW9cNbA2VdOCSN7L6wgdjC_oTxLphER647R9PnSCkV" height = "200" >
-    </center> 
-    <center>
-    <form action="http://google.co.in" method="GET"></form>
-    <label for="name">Username</label>
-    <input type="text" name="name" id="name"  placeholder=" Enter Mobile number/Email" required
-    <br> 
-    <br>
-    <br>
-    <label for="number">EPIC Number</label>
-    <input type="number" name="number" id="number" placeholder="Enter your EPIC number" max="13" required
-    <br> 
-    <br>
-    <br>
-    <label for="number">Aadhar Card Number</label>
-    <input type="number" name="number" id="number"  placeholder= "Enter you aadhar number" max="13" required
-    <br> 
-    <br>
-    <br>
-    <label for="number">Phone Number</label>
-    <input type="number" name="number" id="number"  placeholder="xxxxxxxxxx" max = "10" required
-     <br> 
-    <br>
-    <br>
-    <label for="Email">Email Address</label>
-    <input type="url" name="url" id="url" placeholder="xyz@gmail.com"  required
-    <br> 
-    <br>
-    <br>
-    <label>State</label>
-    <select name="pets" id="pet-select">
-        <option value="">--Select your State--</option>
-        <option value="Uttar Pradesh">Uttar Pradesh</option>
-        <option value="Goa">Goa</option>
-        <option value="Manipur">Manipur</option>
-        <option value="Punjab">Punjab</option>
-        <option value="Uttrakhand">Uttrakhand</option>
-    </select>
-
-    <br> 
-    <br>
-    <br>
+    <!-- <img src="https://play-lh.googleusercontent.com/3APi4HdWb0_rhnhAEoyJEYfSemXW9cNbA2VdOCSN7L6wgdjC_oTxLphER647R9PnSCkV" height = "200" > -->
     </center>
-    <center>
-    <button> <a href = "continue.html">Continue </a></button> <button>Reset</button>
-    </center>
+    <div class="user-form">
+      <center>      
+        <form action="http://google.co.in" action="index.html" method="post" autocomplete="on"></form>
+        <img src="Assets/img/user-bg.png" style="height: 10rem;" alt="">
+        <br><br>
+        <label for="name">Username</label>
+        <i class="fa-solid fa-user" style="background-color: #ecf0f1; width: 25px; height: 20px;"></i>
+        <input type="text" name="name" id="uname"  placeholder=" Enter Mobile/Email" required/>
+        <br> 
+        <br>
+        <br>
+        <label for="number">Password</label>
+        <i class="fa-solid fa-key" style="background-color: #ecf0f1; width: 25px; height: 20px;"></i>
+        <input type="password" name="password" id="number" placeholder="Enter password" max="15" minlength="8" required/>
+        <br> 
+        <br>
+        <br>
+        <label for="captcha">Captcha</label>
+        <img src="data:image/png;base64,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" alt="captcha">
+        <i class="fa-solid fa-arrow-rotate-right"></i>
+        <input type="url" name="url" id="url" placeholder="captcha"  required/>
+        <br> 
+        <br>
+        <br>
+        <button class="login-button">Login<i class="fa-solid fa-right-from-bracket"></i></button>
+        <br><br>
+        <label for="pass" style="color: #dc3545 !important;"><a href="verify-form.html">Forgot Password?</a></label>
+        <br> 
+        <br>
+        <label for="no-account" style="color: #18bc9c; border-radius: 0;"><a href="verify-form.html">Don't have account, Register as a new user.</a></label>
+        <br>
+      </center>  
+    </div> 
     <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
       <div class="container p-4">

@@ -34,3 +34,90 @@ body
     row-gap: 5rem;
     text-align: center;
 }
+.user-form{
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    box-shadow: 10px 10px 50px #3498db;
+    background-color: white ;
+}
+.login-button{
+    width: 100%;
+    background-color: #3498db;
+    color: #fff; 
+    border-color: #3498db; 
+    height: 3.5rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.head-box{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 100%;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.mobile-form{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 50px #337ab7;
+    background-color: white;
+    padding: 30px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; 
+}
+.OTP-button{
+    background-color: #337ab7;
+    color: white;
+}
+
+
+@media (max-width:800px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:500px){
+    .user-form{
+        width: 80%;
+    }
+    .mobile-form{
+        width: 80%;
+    }
+    .carousel{
+        width: 95%;
+    }
+    .cards{
+        padding-left: 40px;
+        padding-bottom: 20px;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width:380px){
+    .cards{
+        margin: auto;
+        padding-right: 10px;
+    }
+}
