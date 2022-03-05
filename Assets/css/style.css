@@ -87,7 +87,9 @@ a{
     background-color: #337ab7;
     color: white;
 }
-
+.card:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
 
 @media (max-width:800px){
     .cards{
